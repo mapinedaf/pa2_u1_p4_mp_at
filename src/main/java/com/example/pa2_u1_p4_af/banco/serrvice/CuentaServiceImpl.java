@@ -32,7 +32,7 @@ public class CuentaServiceImpl implements CuentaService {
     @Override
     public Cuenta buscarPorNumero(String numero) {
         // TODO Auto-generated method stub
-        return this.cuentaRepository.seleccionar(numero);
+        return this.cuentaRepository.seleccionarPorNumero(numero);
     }
     
 }

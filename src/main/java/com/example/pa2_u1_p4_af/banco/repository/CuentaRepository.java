@@ -8,6 +8,6 @@ public interface CuentaRepository {
     public void actualizar(Cuenta cuenta);
 
     public void eliminar(String numero);
-    public Cuenta seleccionar(String numero);
+    public Cuenta seleccionarPorNumero(String numero);
     
 }

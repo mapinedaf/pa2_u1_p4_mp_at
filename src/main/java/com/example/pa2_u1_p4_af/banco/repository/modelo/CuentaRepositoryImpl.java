@@ -26,12 +26,12 @@ public class CuentaRepositoryImpl implements CuentaRepository{
     @Override
     public void eliminar(String numero) {
         // TODO Auto-generated method stub
-        Cuenta cuen = this.seleccionar(numero);
+        Cuenta cuen = this.seleccionarPorNumero(numero);
         baseDatos.remove(cuen);
     }
 
     @Override
-    public Cuenta seleccionar(String numero) {
+    public Cuenta seleccionarPorNumero(String numero) {
         // TODO Auto-generated method stub
         Cuenta cuentaEncontrada = new Cuenta();
         for (Cuenta cuen : baseDatos){

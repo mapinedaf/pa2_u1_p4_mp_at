@@ -1,0 +1,28 @@
+Los servicios de negocio deben ser lo mas 
+sencillos posible y con la menor cantidad 
+de informacion
+
+Mientras la logica de negocios no esta clara
+no se escribe codigo.
+
+Historias de usuario: Redactar el uso como 
+si fuese una Historia, se incluye la necesidad
+funcional o necesidad del usuario. 
+Es importante que este bien redactado y con 
+detalle, no deberia tener informacion tecnica.
+
+Solo si el metodo de negocio hace calculos
+es necesatio invocar al service 
+
+debemos identificar que funcionalidad pertence 
+a cada service 
+
+
+
+
+
+
+
+
+
+
