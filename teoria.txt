@@ -1,0 +1,23 @@
+dentro de componentes de negocio existen 2 tipos de scopes/alcances/ambitos
+1 Singleton
+2 Prototype
+
+Singleton crea una sola instancia dentro de toda la aplicacion, sin importar donde se inyecte
+
+Prototype crea una sola instancia por cada inyeccion
+
+si inyecto atravez del autowired un bean prototype vive en el contexto de su clase. no tiene alcanze
+de toda la aplicacion
+
+El valor por defecto de un valor es el singleton 
+
+Los valores que casi nunca cambian son catalogos y parametros. 
+un catalogo es un sistema de valores a usar ej 24 provincias 
+
+
+
+
+
+
+
+
